@@ -5,7 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
- -la 
+  -la 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v2
     - name: Build code
       run: <BUILD>
-
+      
